@@ -1,0 +1,29 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: blue;
+  background-color: wheat;
+  text-align: center;
+}
+body {
+  background-color: rebeccapurple;
+}
+p {
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+table {
+  background-color: green;
+  color: white;
+  margin: 20px;
+}
+ol,
+ul {
+  color: white;
+}
+form {
+  color: white;
+}
