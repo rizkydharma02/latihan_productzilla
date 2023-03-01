@@ -1,0 +1,55 @@
+#id1 {
+  color: red;
+  background-color: blue;
+}
+
+.kelas1 {
+  color: blue;
+  background-color: red;
+}
+
+.kelas2 {
+  border-style: solid;
+  border-color: magenta;
+  border-width: 5px;
+}
+
+.link a {
+  color: green;
+}
+
+.link a:visited {
+  color: blueviolet;
+}
+
+.link a:hover {
+  color: white;
+  background-color: black;
+}
+
+.link a:active {
+  color: red;
+  background-color: blueviolet;
+}
+
+.link a:focus {
+  border-color: magenta;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.menu > .list-menu {
+  display: none;
+}
+
+.menu > .tombol:focus + .list-menu {
+  display: block;
+}
+
+.menu-hover > .list-menu {
+  display: none;
+}
+
+.menu-hover:hover > .tombol + .list-menu {
+  display: block;
+}
