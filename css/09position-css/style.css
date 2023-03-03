@@ -1,0 +1,53 @@
+.biru {
+  border: 1px solid blue;
+  color: blue;
+}
+
+.merah {
+  border: 1px solid red;
+  color: red;
+}
+
+.hijau {
+  border: 1px solid green;
+  color: green;
+}
+
+.kuning {
+  border: 1px solid yellow;
+  color: yellow;
+}
+
+.kotak {
+  margin: 10px;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  border-width: 1px;
+  border-style: solid;
+  background-color: white;
+}
+
+.static {
+  position: static;
+}
+
+.relative {
+  position: relative;
+  left: 50px;
+  top: 50px;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.fixed {
+  position: fixed;
+  width: 100%;
+}
+
+.sticky {
+  position: sticky;
+}

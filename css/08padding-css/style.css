@@ -1,0 +1,28 @@
+.biru {
+  border: 1px solid blue;
+  color: blue;
+}
+
+.merah {
+  border: 1px solid red;
+  color: red;
+}
+
+.hijau {
+  border: 1px solid green;
+  color: green;
+}
+
+.kuning {
+  border: 1px solid yellow;
+  color: yellow;
+}
+
+.kotak {
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  border-width: 1px;
+  border-style: solid;
+}
