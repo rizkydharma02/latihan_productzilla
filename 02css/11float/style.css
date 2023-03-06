@@ -1,0 +1,23 @@
+.container {
+  background-color: red;
+  width: 90%;
+  height: 500px;
+  margin: auto;
+}
+
+.float {
+  float: right;
+  width: 33.333333%;
+}
+
+.blue {
+  height: 200px;
+  width: 97%;
+  padding: 1.5%;
+}
+
+.background {
+  background-color: blue;
+  width: 100%;
+  height: 100%;
+}
