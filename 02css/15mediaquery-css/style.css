@@ -1,0 +1,61 @@
+:root {
+  --margin-layout: 10px;
+  --backgound-color-layout: red;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.header {
+  background-color: var(--backgound-color-layout);
+  height: 100px;
+  margin: var(--margin-layout);
+}
+
+.column {
+  flex-direction: row;
+}
+
+.navigation {
+  flex: 1;
+  background-color: blue;
+  /* min-height: max-content;  dipakai ketika tidak menggunakan flexbox*/
+  margin: var(--margin-layout);
+  min-height: 100px;
+}
+
+.content {
+  flex: 2;
+  min-height: 500px;
+  margin: var(--margin-layout);
+}
+
+.card {
+  float: left;
+  width: 200px;
+  margin: 1%;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px 0px gray;
+}
+
+.footer {
+  background-color: var(--backgound-color-layout);
+  height: 200px;
+  margin: var(--margin-layout);
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .card {
+    width: 100%;
+  }
+}

@@ -1,0 +1,68 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation-duration: 5s;
+  animation-timing-function: calc();
+  animation-iteration-count: infinite;
+  position: relative;
+}
+
+.animation-1 {
+  animation-name: box-move;
+}
+
+.animation-2 {
+  animation-name: box-move-2;
+}
+
+@keyframes box-move {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  25% {
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    left: 200px;
+    top: 200px;
+    border-radius: 100px;
+    background-color: blue;
+  }
+  75% {
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes box-move-2 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  25% {
+    left: 0px;
+    top: -50px;
+  }
+  50% {
+    left: 50px;
+    top: -50px;
+    border-radius: 50px;
+    background-color: green;
+  }
+  75% {
+    left: 50px;
+    top: 0px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}

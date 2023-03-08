@@ -1,0 +1,40 @@
+:root {
+  --margin-layout: 10px;
+  --backgound-color-layout: blue;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.header {
+  background-color: var(--backgound-color-layout);
+  height: 100px;
+  margin: var(--margin-layout);
+}
+
+.column {
+  flex-direction: row;
+}
+
+.navigation {
+  flex: 1;
+  background-color: var(--backgound-color-layout);
+  /* min-height: max-content;  dipakai ketika tidak menggunakan flexbox*/
+  margin: var(--margin-layout);
+}
+
+.content {
+  flex: 2;
+  background-color: var(--backgound-color-layout);
+  min-height: 500px;
+  margin: var(--margin-layout);
+}
+
+.footer {
+  background-color: var(--backgound-color-layout);
+  height: 200px;
+  margin: var(--margin-layout);
+}
